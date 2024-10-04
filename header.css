@@ -94,7 +94,7 @@ body{
 }
 .header-bar > .logo {
 	position: absolute;
-	top: calc(100% - 50px);
+	top: calc(100% - 20px);
 	left: 10px;
 	transform: translateY(-50%);
 	color: #fffc;
