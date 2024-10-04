@@ -3,7 +3,7 @@
 /* From Uiverse.io by satyamchaudharydev */ 
 /* === removing default button style ===*/
 .button {
-    margin-top: 10;
+    margin-top: 10px;
     height: auto;
     background: transparent;
     padding: 0;
