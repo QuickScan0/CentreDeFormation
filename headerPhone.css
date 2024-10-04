@@ -1,0 +1,18 @@
+.hamburger{
+	height: 100px;
+	width:150px;
+	cursor: pointer;
+}
+.hamburger:hover{
+	background-color: #171154;
+}
+.logoo {
+	position:relative;
+	left: 40%;
+	top:40%;
+	transform: translateY(-50%);
+	color: #fffc;
+	font-family:'Courier New', Courier, monospace;
+	cursor: default;
+	user-select: none;
+}
