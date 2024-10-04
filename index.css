@@ -3,7 +3,7 @@
 /* From Uiverse.io by satyamchaudharydev */ 
 /* === removing default button style ===*/
 .button {
-    margin-top: 10px;
+    margin-top: 10;
     height: auto;
     background: transparent;
     padding: 0;
@@ -15,8 +15,8 @@
   /* button styling */
   .button {
     --border-right: 6px;
-    --text-stroke-color: rgba(42, 26, 149, 0.973);
-    --animation-color: #21188d;
+    --text-stroke-color: rgb(234, 233, 238);
+    --animation-color: #ffffff;
     --fs-size: 2em;
     letter-spacing: 3px;
     text-decoration: none;
