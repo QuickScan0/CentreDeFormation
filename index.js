@@ -24,12 +24,14 @@ if (window.innerWidth >= 768) {
 
   }else {
     header.innerHTML=`
-     <img class="hamburger" src="icons/hamburger.png" >
-     <h1 class="logoo">
-      <button class="button" data-text="Awesome">
-       <span class="actual-text">&nbsp;Isli&nbsp;</span>
-       <span aria-hidden="true" class="hover-text">&nbsp;Isli&nbsp;</span>
-      </button>
-     </h1>
+     <div class="PhoneHeader">
+      <img class="hamburger" src="icons/hamburger.png" >
+       <h1 class="logoo">
+        <button class="button" data-text="Awesome">
+         <span class="actual-text">&nbsp;Isli&nbsp;</span>
+         <span aria-hidden="true" class="hover-text">&nbsp;Isli&nbsp;</span>
+        </button>
+       </h1>
+     </div>
      `
   }

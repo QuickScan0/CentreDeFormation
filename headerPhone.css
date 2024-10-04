@@ -1,6 +1,7 @@
 .hamburger{
-	height: 100px;
-	width:150px;
+	height: 100%;
+    padding-top: 10px;
+	width:120px;
 	cursor: pointer;
 }
 .hamburger:hover{
@@ -10,9 +11,12 @@
 	position:relative;
 	left: 40%;
 	top:40%;
-	transform: translateY(-50%);
 	color: #fffc;
 	font-family:'Courier New', Courier, monospace;
 	cursor: default;
 	user-select: none;
+}
+.PhoneHeader{
+    display: flex;
+    flex-direction: row;
 }

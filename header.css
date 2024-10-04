@@ -49,10 +49,16 @@
   margin: 0;
   padding: 0;
 }
+body{
+	background-color: black;
+}
 
-
-header {
+.header {
 	height: 100px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
 	padding-top: 10px;
 	background-color:  rgb(15, 11, 93)}
 .container {
