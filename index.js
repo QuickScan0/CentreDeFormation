@@ -20,7 +20,6 @@ if (window.innerWidth >= 768) {
             </ul>
         </div>
     </div>
-    <button>hh</button>
     `
 
   }else {
