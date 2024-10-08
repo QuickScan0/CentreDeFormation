@@ -50,7 +50,10 @@
   padding: 0;
 }
 body{
-	background-color: black;
+	background-color: white;
+	overflow-x: hidden;
+	display: flex;
+	flex-direction: column;
 }
 
 .header {
@@ -60,7 +63,9 @@ body{
     left: 0;
     top: 0;
 	padding-top: 10px;
-	background-color:  rgb(15, 11, 93)}
+	background-color:  rgb(15, 11, 93);
+    box-shadow: 0px 5px 13px rgba(0,0,0,0.4);
+}
 .container {
 	height: 100px;
 	display: flex;
@@ -94,7 +99,7 @@ body{
 }
 .header-bar > .logo {
 	position: absolute;
-	top: calc(100% - 20px);
+	top: calc(100% - 10px);
 	left: 10px;
 	transform: translateY(-50%);
 	color: #fffc;
@@ -125,4 +130,7 @@ body{
 .slider-menu > li:hover {
 	color: #21188d;
 	box-shadow: 0 50px 5px rgba(0, 0, 0, 0.15) inset;
+}
+.logoImg{
+	height: 140px;
 }
