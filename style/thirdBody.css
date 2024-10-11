@@ -1,0 +1,50 @@
+.thirdBody{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px ;
+    font-weight: 600;
+    color:  rgb(19, 14, 118) ;
+    padding-top: 30px;
+    
+}
+.thirdBodyChildren{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+.thirdBodyChildren1{
+    width: 250px;
+    height: 200px;
+    background-color:  rgb(57, 51, 161) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 5px 12px 20px rgba(14, 3, 110, 0.6);
+    cursor: pointer;
+    margin: 30px;
+}
+.thirdBodyChildren1:hover{
+    background-color:  rgb(16, 11, 121) ;
+}
+.thirdBodyChildren1Tittle{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px ;
+    font-weight: 200;
+    color:  white ;
+    padding-bottom: 20px;
+    padding-left: 10px
+}
+.mathIcon{
+    height: 150px;
+    width: 200px;
+    padding-top: 30px;
+}
