@@ -1,0 +1,29 @@
+.fifthBody{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px ;
+    font-weight: 600;
+    color:  rgb(19, 14, 118) ;
+    padding-top: 30px;
+}
+.fifthBodyChildren{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    .fifthBodyChildren1{
+        width: 250px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin: 30px;
+    }
