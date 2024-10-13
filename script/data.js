@@ -17,7 +17,7 @@ export const Formation=[
 },
 {
     name:"Combattre l'analphabétisme",
-    img:"img/Analphabétisme.png"
+    img:"img/analphabétisme.png"
 },
 {
     name:"Éducateur en autisme",
