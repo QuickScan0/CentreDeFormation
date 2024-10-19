@@ -1,9 +1,26 @@
 .footerContainer{
  margin-top: 50px;
- height: 100px;
+ margin-bottom: 0px;
+ height: 80px;
  background-color: rgb(10, 10, 105);
- position: relative;
- left: 0px;
- right: 0px;
- bottom: 0px;
+ position:unset;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
+.iconSocial{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.socialContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
 }

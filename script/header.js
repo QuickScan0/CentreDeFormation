@@ -11,10 +11,10 @@ if (window.innerWidth >= 768) {
             <img class="logoImg" src="img/isliLogo.png" >
             </h1>
             <ul class="slider-menu">
-                <li>à propos</li>
-                <li>pré-inscription</li>
-                <li>Nos Centres</li>
-                <li>contact</li>
+                <li><a href="index.html">à propos</a></li>
+                <li><a href="inscription.html">pré-inscription</a></li>
+                <li><a href="location.html">Nos Centres</a></li>
+                <li><a href="contact.html">contact</a></li>
             </ul>
         </div>
     </div>
