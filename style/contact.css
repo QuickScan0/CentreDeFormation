@@ -34,7 +34,7 @@ body {
     border-radius: 4px;
 }
 .contact-form button {
-    background:  rgb(19, 14, 118) ;
+    background:  #000080;
     color: #ffffff;
     padding: 10px 15px;
     border: none;
@@ -42,7 +42,7 @@ body {
     cursor: pointer;
 }
 .contact-form button:hover {
-    background: #ff6a3c;
+    background: #040201;
 }
 @media(min-width: 768px) {
     .contact-container {

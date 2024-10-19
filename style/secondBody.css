@@ -1,5 +1,5 @@
 .secondBody{
-    margin-top:   70px;
+margin-top:   20px;
 /* Démarre hors de l'écran */
 transform: translateX(-100%);
 animation: slide 2s ease-in-out forwards;
