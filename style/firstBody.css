@@ -11,10 +11,10 @@ body {
     min-height: 100vh;
 }
 .main-content {
-    background-color: #000080; /* Bleu marine */
-    color: white;
+    background-color:white; /* Bleu marine */
+    color: #000080;
     padding: 2rem;
-    border-radius: 10px;
+    border-radius: 5px;
     max-width: 1fr;
     text-align: center;
 }
