@@ -133,3 +133,6 @@ body{
 .logoImg{
 	height: 140px;
 }
+a{  text-decoration: none;
+	color: white;
+}

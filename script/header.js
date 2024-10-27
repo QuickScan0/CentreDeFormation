@@ -1,4 +1,18 @@
 const header=document.querySelector('.header');
+document.addEventListener('DOMContentLoaded', function() {
+  var menuButton = document.getElementById('menuButton');
+  var nav = document.getElementById('nav');
+
+  menuButton.addEventListener('click', function() {
+      nav.classList.toggle('show');
+  });
+
+  window.addEventListener('resize', function() {
+      if (window.innerWidth > 768) {
+          nav.classList.remove('show');
+      }
+  });
+});
 if (window.innerWidth >= 768) {
   header.innerHTML=`
    <!--<button class="button" data-text="Awesome">
@@ -22,35 +36,16 @@ if (window.innerWidth >= 768) {
     `
 
   }else {
-    header.innerHTML=`
-     <div class="PhoneHeader">
-       <h1 class="logoo">
-       <img class="logooImg" src="img/isliLogo.png" >
-        </button>
-       </h1>
-<nav role='navigation'>
-		<div id="menuToggle">
-			<input type="checkbox" />
-			<span></span>
-			<span></span>
-			<span></span>
-			<ul id="menu">
-				<a href="#">
-					<li>à propos</li>
-				</a>
-				<a href="#">
-					<li>pré-inscription</li>
-				</a>
-				<a href="#">
-					<li>Nos Centres</li>
-				</a>
-				<a href="#">
-					<li>Contact</li>
-				</a>
-			</ul>
-		</div>
-	</nav>
-     </div>
+    header.classList.add('headerr');
+    document.querySelector('.headerr').innerHTML=`
+    <img src="img/isliLogo.png" alt="Logo" class="logoo">
+    <button class="menu-button" id="menuButton">☰</button>
+    <nav class="nav" id="nav">
+        <button><a href="index.html">à propos</a></button>
+        <button><a href="inscription.html">pré-inscription</a></button>
+        <button><a href="location.html">Nos Centres</a></button>
+        <button><a href="contact.html">contact</a></button>
+    </nav>
      `
   }
   
