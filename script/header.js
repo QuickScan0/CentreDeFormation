@@ -22,7 +22,7 @@ if (window.innerWidth >= 768) {
        <div class="container">
         <div class="header-bar">
             <h1 class="logo">
-            <img class="logoImg" src="img/isliLogo.png" >
+            <a href="index.html"><img class="logoImg" src="img/isliLogo.png" ></a>
             </h1>
             <ul class="slider-menu">
                 <li><a href="index.html">à propos</a></li>
@@ -38,7 +38,7 @@ if (window.innerWidth >= 768) {
   }else {
     header.classList.add('headerr');
     document.querySelector('.headerr').innerHTML=`
-    <img src="img/isliLogo.png" alt="Logo" class="logoo">
+    <a href="index.html"><img src="img/isliLogo.png" alt="Logo" class="logoo"></a>
     <button class="menu-button" id="menuButton">☰</button>
     <nav class="nav" id="nav">
         <button><a href="index.html">à propos</a></button>

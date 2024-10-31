@@ -22,10 +22,10 @@ document.querySelector('.footer').innerHTML=
 ${content}
 </div>
 <div class="social-icons">
-<a href="https://www.instagram.com/your-instagram-profile" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">
+<a href="https://www.instagram.com/isli_school?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">
     <img src="icons/insta.png" alt="Instagram">
 </a>
-<a href="https://www.facebook.com/your-facebook-page" target="_blank" rel="noopener noreferrer" aria-label="Like us on Facebook">
+<a href="https://www.facebook.com/isli.temara/?locale=ar_AR" target="_blank" rel="noopener noreferrer" aria-label="Like us on Facebook">
     <img src="icons/face.png" alt="Facebook">
 </a>
 </div>
