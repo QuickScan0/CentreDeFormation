@@ -40,3 +40,34 @@ body, html {
         font-size: 32px;
     }
 }
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:  #000080;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+.whatsapp-button:hover {
+    background-color:  #25D366;
+}
+
+.whatsapp-icon {
+    width: 36px;
+    height: 36px;
+}
+
+/* Demo content styles */
+.content {
+    height: 200vh;
+    padding: 20px;
+    background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+}
