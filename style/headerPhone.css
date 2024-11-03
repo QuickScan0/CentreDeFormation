@@ -24,6 +24,8 @@
 	background-color: #000080;
 	width: 200px;
 	z-index: 2;
+	height: fit-content;
+	border-radius: 20px;
 }
 .nav.show {
 	display: block;
@@ -31,12 +33,14 @@
 .nav button {
 	display: block;
 	width: 100%;
-	padding: 10px;
+	padding: 20px;
 	background: none;
 	border: none;
 	color: white;
 	text-align: left;
 	cursor: pointer;
+	font-size: large;
+	font-style: unset;
 	
 }
 .nav button:hover {

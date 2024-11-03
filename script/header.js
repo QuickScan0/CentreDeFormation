@@ -41,10 +41,10 @@ if (window.innerWidth >= 768) {
     <a href="index.html"><img src="img/isliLogo.png" alt="Logo" class="logoo"></a>
     <button class="menu-button" id="menuButton">☰</button>
     <nav class="nav" id="nav">
-        <button><a href="index.html">à propos</a></button>
-        <button><a href="inscription.html">pré-inscription</a></button>
-        <button><a href="location.html">Nos Centres</a></button>
-        <button><a href="contact.html">contact</a></button>
+       <a href="index.html"> <button>à propos</button></a>
+       <a href="inscription.html"><button>pré-inscription</button></a>
+       <a href="location.html"> <button>Nos Centres</button></a>
+       <a href="contact.html"> <button>contact</button></a>
     </nav>
      `
   }
