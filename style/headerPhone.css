@@ -23,6 +23,7 @@
 	right: 0;
 	background-color: #000080;
 	width: 200px;
+	z-index: 2;
 }
 .nav.show {
 	display: block;
@@ -36,9 +37,10 @@
 	color: white;
 	text-align: left;
 	cursor: pointer;
+	
 }
 .nav button:hover {
-	background-color: #140960;
+	background-color: #efeef7;
 }
 @media (min-width: 768px) {
 	.menu-button {
