@@ -3,12 +3,12 @@ let inscriptionForm=`
 <div class="flex">
 <label>
     <input required="" placeholder="" type="text" class="input jsName">
-    <span>Firstname</span>
+    <span>Prénom</span>
 </label>
 
 <label>
     <input required="" placeholder="" type="text" class="input jsLastName">
-    <span>Lastname</span>
+    <span>Nom</span>
 </label>
 </div>  
     
@@ -19,7 +19,7 @@ let inscriptionForm=`
 
 <label>
 <input required="" placeholder="" type="text" class="input jsNumero">
-<span>Numero</span>
+<span>Numéro</span>
 </label>
 <label>
 <input required="" placeholder="" type="text" class="input jsNiveau">
