@@ -34,7 +34,7 @@ Le Centre de Soutien Scolaire ISLI, situé à Témara, propose un cadre moderne 
                     <p>Temara 12000</p>
                     <p>📞 +212 (0) 666 15 91 11</p>
                     <p>📞 +212 (0) 5375-85926</p>
-                    <p>✉️ contact@gsalbayane.ma</p>
+                    <p>✉️ contact@ISLI.com</p>
                 </div>
               
             </div>
