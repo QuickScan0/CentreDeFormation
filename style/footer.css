@@ -1,66 +1,85 @@
-.footer {
-    background-color:rgb(14, 14, 140);
-    padding: 20px;
+footer {
+    background-color:#000080;
+    color: white;
+    padding: 40px 0;
     font-family: Arial, sans-serif;
 }
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+
+.footer-content {
     max-width: 1200px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 30px;
+    padding: 0 20px;
 }
-.footer-column {
-    flex: 1;
-    margin: 0 10px;
-    width: fit-content;
-}
-.footer-title {
-    color: #fff;
-    font-size: 18px;
-    margin-bottom: 15px;
-    width: fit-content;
-}
-.footer-info {
+
+.footer-logo {
+    width: 90px;
     margin-bottom: 10px;
+    height: 90px;
 }
-.footer-icon {
-    width: 20px;
-    height: 20px;
-    background-color: #fff;
-    display: inline-block;
-    margin-right: 10px;
-    vertical-align: middle;
+
+.footer-description {
+    max-width: 400px;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
-.footer-text {
-    display: inline-block;
-    vertical-align: middle;
-    color: #fff;
-    font-size: 14px;
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
 }
-.social-icons {
-    text-align: center;
-    margin-top: 20px;
+
+.footer-links {
+    list-style: none;
+    padding: 0;
 }
-.social-icons a {
-    display: inline-block;
-    margin: 0 10px;
+
+.footer-links li {
+    margin-bottom: 12px;
 }
-.social-icons img {
-    width: 24px;
-    height: 24px;
-    transition: opacity 0.3s ease;
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.3s;
 }
-.social-icons img:hover {
+
+.footer-links a:hover {
     opacity: 0.8;
 }
-.social-icons a {
-    color: #fff;
-    font-size: 24px;
-    margin: 0 10px;
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: white;
     text-decoration: none;
-    transition: color 0.3s ease;
 }
-.social-icons a:hover {
-    color: #f1f1f1;
+
+.copyright {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }}
+    .reachmedia{
+        font-size: large;
+        font-weight: 400;
+        text-decoration: underline;
+    }

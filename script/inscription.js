@@ -30,6 +30,7 @@ let inscriptionForm=`
 <span>Matiere/langue/Formation</span>
 </label>
 <button class="confirm">Confirmer</button>
+
 `;
 document.querySelector('.form').innerHTML=inscriptionForm;
 let form=[{
