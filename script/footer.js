@@ -4,9 +4,8 @@ document.querySelector('.footer').innerHTML=
             <div class="footer-section">
                 <img src="img/isliLogo.png" alt="ISLI Logo" class="footer-logo">
                 <p class="footer-description">
-                    Le Groupe scolaire Al Bayane dispose d'un campus à Temara, qui propose des installations modernes qui répondent à toutes les normes en vigueur. Il est essentiel de veiller à ce que chaque élève puisse s'y épanouir et y étudier dans les meilleures conditions.
-                </p>
-            </div>
+
+Le Centre de Soutien Scolaire ISLI, situé à Témara, propose un cadre moderne et adapté pour accompagner les élèves dans leur réussite scolaire. Nous offrons des cours de soutien personnalisés, conçus pour répondre aux besoins de chaque élève et leur permettre de progresser dans les meilleures conditions. Notre priorité est de favoriser leur épanouissement et leur confiance en eux pour atteindre leurs objectifs académiques.            </div>
 
             <div class="footer-section">
                 <h3>Company</h3>
