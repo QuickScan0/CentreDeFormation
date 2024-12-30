@@ -27,7 +27,7 @@ if (window.innerWidth >= 768) {
             <ul class="slider-menu">
                 <li><a href="index.html">à propos</a></li>
                 <li><a href="inscription.html">pré-inscription</a></li>
-                <li><a href="location.html">Location</a></li>
+                <li><a href="location.html">Localisation</a></li>
                 <li><a href="contact.html">contact</a></li>
             </ul>
         </div>

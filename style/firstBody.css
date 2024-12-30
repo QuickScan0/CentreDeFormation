@@ -44,7 +44,7 @@ body, html {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color:  #000080;
+    background-color:  #25D366;
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -57,7 +57,7 @@ body, html {
 }
 
 .whatsapp-button:hover {
-    background-color:  #25D366;
+    background-color: #000080;
 }
 
 .whatsapp-icon {

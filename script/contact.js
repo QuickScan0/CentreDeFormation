@@ -1,6 +1,6 @@
 document.querySelector('.container1').innerHTML=`
 <div class="contact-container">
-            <div class="contact-info">
+            <div class="contactt-info">
                 <h2>Restons en Contact</h2>
                 <p>Nous serions ravis d'avoir de vos nouvelles. Veuillez utiliser les informations de contact ci-dessous ou remplir le formulaire pour nous contacter.</p>
                 <ul>
